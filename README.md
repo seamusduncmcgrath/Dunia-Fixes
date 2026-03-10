@@ -9,7 +9,7 @@ A comprehensive ASI plugin for Far Cry 2 that overhauls the engine's legacy memo
 * **CPU Multithreading Optimization:** Overrides the game's default threading configuration. This un-bottlenecks the main render thread and properly distributes physics and engine jobs across modern multi-core CPUs (Experimental, can reduce performance.
 
 ### Visual & Bug Fixes
-* **DX10 Grass Fix:** Restores the proper height and density of grass when running the game in DirectX 10 mode, fixing a decade-old rendering bug.
+* **DX10 Grass Fix:** Restores the proper height and density of grass when running the game in DirectX 10 mode, fixing a rendering bug from the games launch.
 * **Color Banding Fix:** Intercepts the DXGI SwapChain creation to force 32-bit uncompressed color, significantly reducing the harsh color banding present in the vanilla game's skybox and shadows.
 
 ### Quality of Life
@@ -23,8 +23,8 @@ This mod requires an ASI loader to inject into the game.
 
 1. Download the **32-bit (x86)** version of [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader).
 2. Extract the downloaded file and rename it to `dinput8.dll`.
-3. Download the latest release of **Far Cry 2 Modernized**.
-4. Place `dinput8.dll`, `discord-rpc.dll` (If you want discord RPC support), your `.asi` plugin, and the `.ini` configuration file directly into your Far Cry 2 `bin` folder (where `farcry2.exe` is located).
+3. Download the latest release of it.
+4. Place `dinput8.dll`, `discord-rpc.dll` (If you want Discord RPC support), your `.asi` plugin, and the `.ini` configuration file directly into your Far Cry 2 `bin` folder (where `farcry2.exe` is located).
 5. Launch the game.
 
 ## Configuration
