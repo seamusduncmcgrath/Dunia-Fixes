@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Dunia2_Fixes/Dunia2_Fixes.vcxproj" Id="e217c342-b82c-4be5-a72c-d5443a99347a" />
+</Solution>
