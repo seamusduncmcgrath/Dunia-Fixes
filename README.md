@@ -24,7 +24,7 @@ This mod requires an ASI loader to inject into the game.
 1. Download the **32-bit (x86)** version of [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader).
 2. Extract the downloaded file and rename it to `dinput8.dll`.
 3. Download the latest release of **Far Cry 2 Modernized**.
-4. Place `dinput8.dll`, your `.asi` plugin, and the `.ini` configuration file directly into your Far Cry 2 `bin` folder (where `farcry2.exe` is located).
+4. Place `dinput8.dll`, `discord-rpc.dll` (If you want discord RPC support), your `.asi` plugin, and the `.ini` configuration file directly into your Far Cry 2 `bin` folder (where `farcry2.exe` is located).
 5. Launch the game.
 
 ## Configuration
