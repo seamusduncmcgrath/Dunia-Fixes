@@ -5,7 +5,7 @@ A comprehensive ASI plugin for Far Cry 2 that overhauls the engine's legacy memo
 ## Features
 
 ### Performance & Engine Overhauls
-* **Next-Gen Memory Management:** Completely intercepts and replaces the 2008 Dunia engine memory allocator with Microsoft's `mimalloc`. This dramatically reduces stuttering, improves 1% low frame pacing, and decreases load times
+* **Improved Memory Allocator:** Completely intercepts and replaces the 2008 Dunia engine memory allocator with Microsoft's `mimalloc`. This dramatically reduces stuttering, improves 1% low frame pacing, and decreases load times
 * **CPU Multithreading Optimization:** Overrides the game's default threading configuration. This un-bottlenecks the main render thread and properly distributes physics and engine jobs across modern multi-core CPUs (Experimental, can reduce performance.
 
 ### Visual & Bug Fixes
